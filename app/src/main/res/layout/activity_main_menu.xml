@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shiki"
+    tools:context="com.example.sunrainy.minerseeker.MainMenu"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/Playgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Play Game!"
+        android:textColor="#EC7063"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Optionsbtn"
+        app:layout_constraintTop_toBottomOf="@+id/mainmenuview" />
+
+    <Button
+        android:id="@+id/Optionsbtn"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Option"
+        android:textColor="#EC7063"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Helpbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Helpbtn"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:text="Help"
+        android:textColor="#EC7063"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mainmenuview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Main Menu"
+        android:textAlignment="center"
+        android:textColor="#F5B7B1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

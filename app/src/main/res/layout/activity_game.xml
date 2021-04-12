@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunrainy.minerseeker.Game"
+    tools:layout_editor_absoluteY="73dp">
+
+    <TableLayout
+        android:id="@+id/tableforbtns"
+        android:layout_width="0dp"
+        android:layout_height="248dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtFoundMines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/found_x_of_y_mines"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNumScan"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/scans_used"
+        app:layout_constraintStart_toEndOf="@+id/txtFoundMines"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="17dp" />
+
+    <TextView
+        android:id="@+id/txtPlayedGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="@string/number_of_games_played_so_far"
+        app:layout_constraintStart_toEndOf="@+id/txtNumScan"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="132dp" />
+
+    <TextView
+        android:id="@+id/txtBestscoresofar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/least_scan_record"
+        app:layout_constraintBottom_toTopOf="@+id/tableforbtns"
+        app:layout_constraintStart_toStartOf="@+id/txtFoundMines" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shiki"
+    tools:context="com.example.sunrainy.minerseeker.Option"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="247dp"
+        android:text="BACK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Boardsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/board_size"
+        android:textColor="#FF5893"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numMines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/mines"
+        android:textColor="#FF5893"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/rdgrpNumOfMines"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOptionsOkay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginStart="52dp"
+        android:text="ok"
+        app:layout_constraintBaseline_toBaselineOf="@+id/backbtn"
+        app:layout_constraintEnd_toStartOf="@+id/backbtn"
+        app:layout_constraintStart_toEndOf="@+id/ResetNumPlayed" />
+
+    <Button
+        android:id="@+id/ResetNumPlayed"
+        android:layout_width="294dp"
+        android:layout_height="0dp"
+        android:text="reset_number_of_games_played"
+        app:layout_constraintBottom_toTopOf="@+id/ResetBestScorebtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdgrpSizeOfBoard" />
+
+    <Button
+        android:id="@+id/ResetBestScorebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:text="reset_least_scan_record"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdgrpSizeOfBoard" />
+
+    <RadioGroup
+        android:id="@+id/rdgrpSizeOfBoard"
+        android:layout_width="0dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rdgrpNumOfMines"
+        app:layout_constraintStart_toStartOf="@+id/ResetNumPlayed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rdgrpNumOfMines"
+        android:layout_width="106dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/ResetNumPlayed"
+        app:layout_constraintEnd_toEndOf="@+id/OptionsBestRecord"
+        app:layout_constraintStart_toStartOf="@+id/ResetNumPlayed"
+        app:layout_constraintTop_toTopOf="@+id/rdgrpSizeOfBoard" />
+
+    <TextView
+        android:id="@+id/OptionsNumOfGamePlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="202dp"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        android:textColor="#FF5893"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OptionsBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#FF5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/OptionsNumOfGamePlayed"
+        app:layout_constraintTop_toBottomOf="@+id/OptionsNumOfGamePlayed" />
+</android.support.constraint.ConstraintLayout>

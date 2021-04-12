@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shiki3"
+    tools:context="com.example.sunrainy.minerseeker.Help"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/helpbackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="6dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="@+id/resources2"
+        app:layout_constraintEnd_toEndOf="@+id/resources2" />
+
+    <TextView
+        android:id="@+id/GameInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/GameInfo"
+        android:textColor="#ff5893"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/GameInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/string_gameinfo1"
+        android:textColor="#FF5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GameInfo" />
+
+    <TextView
+        android:id="@+id/GameInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/GameInsruction"
+        android:textColor="#FF5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GameInfo1" />
+
+    <TextView
+        android:id="@+id/gameInstruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/GameInstruction1"
+        android:textColor="#ff5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GameInstruction" />
+
+    <TextView
+        android:id="@+id/resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/resource"
+        android:textColor="#ff5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameInstruction1" />
+
+    <TextView
+        android:id="@+id/resource1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/resource1"
+        android:textColor="#ff5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource" />
+
+    <TextView
+        android:id="@+id/resources2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resource2"
+        android:textColor="#ff5893"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/resource1"
+        app:layout_constraintTop_toBottomOf="@+id/resource1" />
+</android.support.constraint.ConstraintLayout>

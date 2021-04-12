@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Miner Seeker</string>
+    <string name="select_a_size_of_board">Select a size of board:</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_number_of_mines_colon">Select # of coins:</string>
+    <string name="okay">Okay</string>
+    <string name="help">Help</string>
+    <string name="options">Options</string>
+    <string name="play_game_exclamation">Play Game!</string>
+    <string name="number_of_mines_colon"># of Coins:</string>
+    <string name="_0x0">0x0</string>
+    <string name="board_size_colon">Board Size:</string>
+    <string name="edit_settings">Edit Settings</string>
+    <string name="settings">Settings</string>
+    <string name="_0">0</string>
+    <string name="found_x_of_y_mines">Found %1$d of %2$d coins</string>
+    <string name="scans_used"># Scans used: %1$d</string>
+    <string name="boom">Boom</string>
+    <string name="number_of_games_played_so_far">Number of games played so far: %1$d</string>
+    <string name="least_scan_record">Least Scan Record: %1$s</string>
+    <string name="reset_number_of_games_played">Reset number of games played</string>
+    <string name="reset_least_scan_record">Reset least scan record</string>
+    <string name="you_win">You Win!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="by_parker_hao_tian">By Parker Hao Tian</string>
+    <string name="assignment_3_of_cmpt_276">Assignment 3 of CMPT 276</string>
+    <string name="instructed_by_brian_fraser">Instructed by Brian Fraser</string>
+    <string name="skip">Skip</string>
+    <!--<string name="a_pile_of_coins">A pile of coins.</string>-->
+    <string name="not_found">Not Found</string>
+    <string name="GameInfo">GameInfo</string>
+    <string name="string_gameinfo1">This game idea is to find \"SHIKI\" which is the character of the anime\"Karanokyokai\",base on this anime,we made this game to celebrate SHIKI\'s birthday</string>
+    <string name="GameInsruction">GameInstruction</string>
+    <string name="GameInstruction1">Clicking on a cell will either reveal a SHIKI in the row and column of the cell.Find all the SHIKI as soon as possible and use the smallest number of scan.</string>
+    <string name="resource">RESOURCES FROM</string>
+    <string name="resource1">CG:https://www.youtube.com/watch?v=92YMDisG1OU</string>
+    <string name="resource2"><![CDATA[Background and cell picture://https://www.google.ca/search?biw=1035&bih=534&tbm=isch&sa=1&ei=MRiGWqbrHcb0jwO5mo2IBg&q=%E7%A9%BA%E4%B9%8B%E5%A2%83%E7%95%8C1080&oq=%E7%A9%BA%E4%B9%8B%E5%A2%83%E7%95%8C1080&gs_l=psy-ab.3...65874.66408.0.67039.0.0.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..0.0.0....0.wmEmCqTw8WI#imgdii=PvWQEsrP71KKeM:&imgrc=3OSKZD4CKFdB1M:]]></string>
+    <string name="creatername">By Rui and Timothy</string>
+    <string name="insturctorname">Insructor: Dr.Brian Fraser</string>
+    <string name="mines">#Mines</string>
+    <string name="board_size">Board Size</string>
+</resources>
